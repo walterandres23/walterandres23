@@ -23,9 +23,11 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **YouHome** | Smart home controlled from a phone and by voice, on a **custom PCB** that drives the actuators and monitors several variables in real time. | Custom PCB · microcontroller · sensors and actuators |
-| **Gesture-controlled robotic arm** | 5-DoF robotic arm that follows hand gestures detected with computer vision. | Computer vision · Python · servo control |
-| **Robot car** | Formula 1-inspired car designed from scratch in 3D, driven from a mobile app over Bluetooth. | Arduino · Bluetooth · App Inventor · 3D CAD |
+| **YouHome** | 1:20 smart home model with two ESP32 boards on a **custom PCB** (designed in EasyEDA, manual routing, made by JLCPCB). Controlled over MQTT from a Node-RED dashboard, a mobile panel and Google Assistant voice commands; temperature, light, fingerprint access, servos and a water pump. | ESP32 · MQTT · Node-RED · EasyEDA · DHT22 |
+| **Gesture-controlled robotic arm** | 5-DoF arm that follows your hand: MediaPipe detects 21 hand landmarks in Python and sends commands over serial to an ESP32 on a custom servo-driver PCB. | Python · MediaPipe · OpenCV · PySerial · ESP32 |
+| **Robot car** | Formula 1-inspired car: chassis designed in SolidWorks and Fusion 360, laser-cut MDF base and 3D-printed motor mounts; Arduino with Bluetooth, driven from a mobile app. | Arduino · Bluetooth · App Inventor · SolidWorks · Fusion 360 |
+
+<sub>The electronics projects were university team projects (Universidad de Ibagué); each repository credits the full team.</sub>
 
 ---
 
@@ -34,7 +36,9 @@
 **AI and data:** Python · PyTorch · scikit-learn · Claude and OpenAI APIs · RAG · pgvector · NumPy · pandas<br>
 **Medical imaging:** nnU-Net · TotalSegmentator · VMTK · SimpleITK · ITK · 3D Slicer · DICOM / NIfTI<br>
 **Backend and cloud:** FastAPI · PostgreSQL · Docker · GitHub Actions · AWS · Cloudflare · Linux · n8n · MCP<br>
-**Electronics:** ESP32 · Arduino · PIC · FPGA (VHDL) · PLC Delta (Ladder) · HMI · MODBUS RTU · EasyEDA · Proteus · Fusion 360
+**Computer vision:** OpenCV · MediaPipe<br>
+**Electronics and IoT:** ESP32 · Arduino · PIC · FPGA (VHDL) · MQTT · Node-RED · PLC Delta (Ladder) · HMI · MODBUS RTU<br>
+**Design and fabrication:** EasyEDA (PCB) · Proteus · SolidWorks · Fusion 360 · 3D printing · laser cutting
 
 ---
 
