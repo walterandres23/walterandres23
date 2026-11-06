@@ -16,7 +16,7 @@
 | Project | What it does | Stack |
 |---|---|---|
 | **AortaAI-Colombia** | End-to-end CT angiography pipeline for thoracic aortic aneurysms: aorta segmentation, centerline, perpendicular diameters per Ishimaru zone and a clinical risk score. **2.48 mm mean error vs. an expert radiologist (r = 0.957, 43 CTA studies).** | PyTorch · nnU-Net / TotalSegmentator · VMTK · SimpleITK · FastAPI |
-| **Mercabot** | LLM ordering assistant for supermarkets, in production on WhatsApp and Instagram: agent with 11+ tools, voice notes, online payments. Hybrid search (RAG) raised catalogue accuracy from **70 % to 88 %**. | Claude API · FastAPI · PostgreSQL + pgvector · Next.js · Docker · AWS |
+| [**Mercabot**](https://github.com/walterandres23/mercabot-showcase) | LLM ordering assistant for supermarkets, in production on WhatsApp and Instagram: agent with 11+ tools, voice notes, online payments. Hybrid search (RAG) raised catalogue accuracy from **70 % to 88 %**. | Claude API · FastAPI · PostgreSQL + pgvector · Next.js · Docker · AWS |
 | [**NailaV2.1**](https://github.com/walterandres23/naila-voice-receptionist) | Bilingual virtual assistant for small hotels: bookings, rates, services and local tourist guidance. | Amazon Bedrock · LangChain · RAG · Python |
 
 ### 🔌 Electronics projects
