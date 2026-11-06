@@ -23,7 +23,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **YouHome** | 1:20 smart home model with two ESP32 boards on a **custom PCB** (designed in EasyEDA, manual routing, made by JLCPCB). Controlled over MQTT from a Node-RED dashboard, a mobile panel and Google Assistant voice commands; temperature, light, fingerprint access, servos and a water pump. | ESP32 · MQTT · Node-RED · EasyEDA · DHT22 |
+| [YouHome](https://github.com/walterandres23/youhome-smart-home) | 1:20 smart home model with two ESP32 boards on a **custom PCB** (designed in EasyEDA, manual routing, made by JLCPCB). Controlled over MQTT from a Node-RED dashboard, a mobile panel and Google Assistant voice commands; temperature, light, fingerprint access, servos and a water pump. | ESP32 · MQTT · Node-RED · EasyEDA · DHT22 |
 | [Gesture-controlled robotic arm](https://github.com/walterandres23/gesture-robotic-arm) | 6-servo arm that follows your hand: MediaPipe detects 21 hand landmarks in Python and sends commands over serial to an ESP32 on a custom servo-driver PCB. | Python · MediaPipe · OpenCV · PySerial · ESP32 |
 | [**Robot car**](https://github.com/walterandres23/robot-car-f1) | Formula 1-inspired car: chassis designed in SolidWorks and Fusion 360, laser-cut MDF base and 3D-printed motor mounts. An Arduino with a dual motor driver (Pololu MC33926) takes commands over Bluetooth (HC-05) from a custom mobile app. | Arduino · HC-05 Bluetooth · MC33926 · App Inventor · SolidWorks · Fusion 360 |
 
