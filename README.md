@@ -15,7 +15,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **AortaAI-Colombia** | End-to-end CT angiography pipeline for thoracic aortic aneurysms: aorta segmentation, centerline, perpendicular diameters per Ishimaru zone and a clinical risk score. **2.48 mm mean error vs. an expert radiologist (r = 0.957, 43 CTA studies).** | PyTorch · nnU-Net / TotalSegmentator · VMTK · SimpleITK · FastAPI |
+| [**AortaAI-Colombia**](https://github.com/walterandres23/aortaai-colombia) | End-to-end CT angiography pipeline for thoracic aortic aneurysms: aorta segmentation, centerline, perpendicular diameters per Ishimaru zone and a clinical risk score. **2.48 mm mean error vs. an expert radiologist (r = 0.957, 43 CTA studies).** | PyTorch · nnU-Net / TotalSegmentator · VMTK · SimpleITK · FastAPI |
 | [**Mercabot**](https://github.com/walterandres23/mercabot-showcase) | LLM ordering assistant for supermarkets, in production on WhatsApp and Instagram: agent with 11+ tools, voice notes, online payments. Hybrid search (RAG) raised catalogue accuracy from **70 % to 88 %**. | Claude API · FastAPI · PostgreSQL + pgvector · Next.js · Docker · AWS |
 | [**Naila**](https://github.com/walterandres23/naila-voice-receptionist) | Bilingual voice receptionist with an animated avatar for a hotel: listens in Spanish or English, answers with an LLM and speaks with neural voices, with subtitles and QR codes on request. | OpenAI API · SpeechRecognition · Edge TTS · Tkinter · OpenCV |
 
@@ -23,8 +23,8 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [YouHome](https://github.com/walterandres23/youhome-smart-home) | 1:20 smart home model with two ESP32 boards on a **custom PCB** (designed in EasyEDA, manual routing, made by JLCPCB). Controlled over MQTT from a Node-RED dashboard, a mobile panel and Google Assistant voice commands; temperature, light, fingerprint access, servos and a water pump. | ESP32 · MQTT · Node-RED · EasyEDA · DHT22 |
-| [Gesture-controlled robotic arm](https://github.com/walterandres23/gesture-robotic-arm) | 6-servo arm that follows your hand: MediaPipe detects 21 hand landmarks in Python and sends commands over serial to an ESP32 on a custom servo-driver PCB. | Python · MediaPipe · OpenCV · PySerial · ESP32 |
+| [**YouHome**](https://github.com/walterandres23/youhome-smart-home) | 1:20 smart home model with two ESP32 boards on a **custom PCB** (designed in EasyEDA, manual routing, made by JLCPCB). Controlled over MQTT from a Node-RED dashboard, a mobile panel and Google Assistant voice commands; temperature, light, fingerprint access, servos and a water pump. | ESP32 · MQTT · Node-RED · EasyEDA · DHT22 |
+| [**Gesture-controlled robotic arm**](https://github.com/walterandres23/gesture-robotic-arm) | 6-servo arm that follows your hand: MediaPipe detects 21 hand landmarks in Python and sends commands over serial to an ESP32 on a custom servo-driver PCB. | Python · MediaPipe · OpenCV · PySerial · ESP32 |
 | [**Robot car**](https://github.com/walterandres23/robot-car-f1) | Formula 1-inspired car: chassis designed in SolidWorks and Fusion 360, laser-cut MDF base and 3D-printed motor mounts. An Arduino with a dual motor driver (Pololu MC33926) takes commands over Bluetooth (HC-05) from a custom mobile app. | Arduino · HC-05 Bluetooth · MC33926 · App Inventor · SolidWorks · Fusion 360 |
 
 <sub>The electronics projects were university team projects (Universidad de Ibagué); each repository credits the full team.</sub>
